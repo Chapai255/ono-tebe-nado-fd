@@ -1,1 +1,247 @@
-/* место для вашего кода */
+header {
+        display: grid;
+        grid-template-columns: 1fr min-content 1fr;
+        align-items: center;
+        padding: 92px 50px 96px 50px;
+}
+
+.nav_link {
+        display: flex;
+        gap: 25px;
+        list-style: circle;
+        font-size: 18px;
+        font-weight: 400;
+}
+
+.header_links-list-item_no-bullit {
+        list-style: none;
+}
+
+.header_logo {
+        display:block;
+        width: 130px;
+}
+
+.header_logo img {
+        width: 100%;
+}
+
+address {
+        display: flex;
+        flex-direction: column;
+        max-width: 240px;
+        justify-self: end;
+        align-items: flex-start;
+}
+
+.cover {
+        background-image: url('../images/cover.jpg');
+        min-height: 757px;
+        background-size: cover;
+        position: relative;
+}
+
+.overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgb(0 0 0 / 0.5);
+}
+
+.cover_title {
+        display: flex;
+        flex-direction: column;
+        text-transform: uppercase;
+        font-size: 100px;
+        font-weight: 700;
+        letter-spacing: 0.3em;
+        color: #fff;
+        margin: 165px 50px 50px 50px;
+        padding: 0;
+        width: 1000px;
+}
+
+.cover_title span {
+        margin-right: -0.3em;
+        margin-bottom: 20px;
+}
+
+.ono {
+        align-self: flex-start;
+}
+
+.tebe {
+        align-self: center;
+}
+
+.nado {
+
+        align-self: flex-end;
+        padding-bottom: 0;
+}
+
+.description {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 80px 50px 50px 50px;
+}
+
+.description-text {
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        text-transform: uppercase;
+}
+
+.auction {
+        word-spacing: 20px ;
+}
+
+.veschey {
+        word-spacing: 17px ;
+}
+
+.kotory {
+        word-spacing: 18px ;
+}
+
+.nikto {
+        word-spacing: 20px ;
+}
+
+.ne_veril {
+        word-spacing: 19px ;
+}
+
+.bet-button {
+        border: 1px solid #fff;
+        background-color: transparent;
+        color: #fff;
+        width: 256px;
+        height: 51px;
+        font-weight: 500;
+        font-size: 22px;
+        text-transform: uppercase;
+        letter-spacing: 0;
+}
+
+.card-title {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 40px;
+        margin-bottom: 27px; /* задаёт отступ между карточками и заголовком */
+}
+
+.card_list {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+}
+
+.card_list li {
+        width: 334px;
+        min-height: 596px;
+}
+
+.card_list a article {
+        height: 100%;
+}
+
+.card {
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding: 50px 40px;
+        justify-content: space-between;
+
+
+}
+
+.card_film {
+        background-image: url('../images/card-lot-01.jpg');
+}
+
+.card_film_title {
+        text-decoration: underline solid #FFFFFF;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 22px;
+        z-index: 1;
+
+}
+
+.card_film_text {
+        color: #fff;
+        font-weight: 400;
+        font-size: 20px;
+        z-index: 1;
+}
+
+.card_book {
+        background-image: url('../images/card-lot-02.jpg');
+
+}
+
+.card_book_title {
+        text-decoration: underline solid #FFFFFF;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 22px;
+        z-index: 1;
+}
+
+.card_book_text {
+        color: #fff;
+        font-weight: 400;
+        font-size: 20px;
+        z-index: 1
+
+}
+
+.card_paint {
+        background-image: url('../images/card-lot-03.jpg');
+}
+
+.card_paint_title {
+        text-decoration: underline solid #FFFFFF;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 22px;
+        z-index: 1;
+}
+
+.card_paint_text {
+        color: #fff;
+        font-weight: 400;
+        font-size: 20px;
+        z-index: 1
+}
+
+.card-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0 0 0 / 0.5);
+        z-index: 0;
+}
+
+.see_more {
+        font-weight: 400;
+        font-size: 20px;
+        color: #000;
+        margin-top: 30px;
+}
+
+
+
