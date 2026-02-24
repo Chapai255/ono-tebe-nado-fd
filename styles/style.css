@@ -11,6 +11,7 @@ header {
         list-style: circle;
         font-size: 18px;
         font-weight: 400;
+
 }
 
 .header_links-list-item_no-bullit {
@@ -32,6 +33,7 @@ address {
         max-width: 240px;
         justify-self: end;
         align-items: flex-start;
+        font-style: normal;
 }
 
 .cover {
@@ -45,7 +47,10 @@ address {
         position: absolute;
         top: 0;
         left: 0;
+        width: 100%;
+        height: 100%;
         background-color: rgb(0 0 0 / 0.5);
+        z-index: 0;
 }
 
 .cover_title {
@@ -56,18 +61,22 @@ address {
         font-weight: 700;
         letter-spacing: 0.3em;
         color: #fff;
-        margin: 165px 50px 50px 50px;
+        margin: 0 50px ;
         padding: 0;
         width: 1000px;
+
+
 }
 
 .cover_title span {
         margin-right: -0.3em;
         margin-bottom: 20px;
+        z-index: 2;
 }
 
 .ono {
         align-self: flex-start;
+        margin-top: 165px;
 }
 
 .tebe {
@@ -85,6 +94,7 @@ address {
         justify-content: space-between;
         align-items: center;
         margin: 80px 50px 50px 50px;
+
 }
 
 .description-text {
@@ -93,6 +103,11 @@ address {
         font-size: 22px;
         line-height: 28px;
         text-transform: uppercase;
+        z-index: 2;
+}
+
+.bet-button {
+        z-index: 2;
 }
 
 .auction {
@@ -159,8 +174,6 @@ address {
         flex-direction: column;
         padding: 50px 40px;
         justify-content: space-between;
-
-
 }
 
 .card_film {
@@ -263,8 +276,6 @@ address {
         display: flex;
         align-items: center;
         justify-content: center;
-
-
 }
 
 .image_logo {
@@ -278,27 +289,57 @@ address {
         font-size: 40px;
         align-self: center;
         justify-self: start;
-
-
 }
 
 .about_text {
         font-weight: 400;
         font-size: 20px;
-
-
 }
 
 .first  {
         grid-area: first;
         margin-top: -16px;
-
 }
 
 .second {
         grid-area: second;
 }
 
+.footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+
+
+}
+
+.footer_address {
+        padding-left: 50px;
+        justify-self: start;
+        font-size: 18px;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.nav_footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 400;
+
+
+}
 
 
 
+.social {
+        width: 48px;
+        height: 48px;
+        display: flex;
+        gap: 48px;
+        justify-content: space-around;
+        margin-left: 25px;
+
+
+}
