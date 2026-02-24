@@ -106,9 +106,6 @@ address {
         z-index: 2;
 }
 
-.bet-button {
-        z-index: 2;
-}
 
 .auction {
         word-spacing: 20px ;
@@ -140,6 +137,7 @@ address {
         font-size: 22px;
         text-transform: uppercase;
         letter-spacing: 0;
+        z-index: 2;
 }
 
 .card-title {
@@ -296,7 +294,7 @@ address {
         font-size: 20px;
 }
 
-.first  {
+.first {
         grid-area: first;
         margin-top: -16px;
 }
