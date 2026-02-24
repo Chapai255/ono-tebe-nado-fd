@@ -40,6 +40,7 @@ address {
         background-image: url('../images/cover.jpg');
         min-height: 757px;
         background-size: cover;
+        background-position: center;
         position: relative;
 }
 
@@ -144,7 +145,8 @@ address {
         text-transform: uppercase;
         font-weight: 700;
         font-size: 40px;
-        margin-bottom: 27px; /* задаёт отступ между карточками и заголовком */
+        margin-bottom: 27px;
+        margin-left: 40px;
 }
 
 .card_list {
@@ -327,19 +329,16 @@ address {
         align-items: center;
         font-size: 18px;
         font-weight: 400;
-
-
 }
 
-
-
-.social {
-        width: 48px;
-        height: 48px;
+.footer_social-list {
+        list-style: none;
         display: flex;
         gap: 48px;
-        justify-content: space-around;
-        margin-left: 25px;
+        margin-left: 20px;
+}
 
-
+.footer_social-icon {
+        width: 48px;
+        height: 48px;
 }
