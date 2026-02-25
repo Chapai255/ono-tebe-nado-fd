@@ -222,7 +222,8 @@ address {
                 "logo about_title"
                 ". about_text"
                 ;
-        gap: 24px;
+        column-gap: 24px;
+        row-gap: 6px;
 }
 
 .logo {
@@ -253,6 +254,7 @@ address {
 .about_text {
         font-weight: 400;
         font-size: 20px;
+        line-height: 24px;
         grid-area: about_text;
         display: flex;
         flex-direction: column;
@@ -260,16 +262,7 @@ address {
 
         /*margin-top: -16px;*/
 }
-/*
-.first {
-        grid-area: first;
-        margin-top: -16px;
-}
 
-.second {
-        grid-area: second;
-}
-*/
 .footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
